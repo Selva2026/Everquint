@@ -50,6 +50,7 @@ src
  │
  ├── utils
  │
+ ├── .env
  │
  └── app.js
 ```
@@ -57,6 +58,11 @@ src
 Business logic is implemented in **services**, not controllers.
 
 ---
+Example .env file:
+
+PORT=5000
+MONGO_URL=mongodb://localhost:27017/meeting-room-booking
+
 
 # Data Model
 
