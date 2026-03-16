@@ -1,0 +1,31 @@
+body{
+    font-family: Arial;
+    text-align:center;
+    }
+    
+    #container{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    margin-top:40px;
+    }
+    
+    .column{
+    display:flex;
+    flex-direction:column-reverse;
+    margin:3px;
+    }
+    
+    .cell{
+    width:35px;
+    height:35px;
+    border:1px solid #999;
+    }
+    
+    .block{
+    background:black;
+    }
+    
+    .water{
+    background:skyblue;
+    }
